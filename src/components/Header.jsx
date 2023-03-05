@@ -10,7 +10,7 @@ const Header = () => {
 
     
     <div className='  max-w-[800px] mt-[56px] w-full h-[90vh] mx-auto text-center flex flex-col '>
-      <p className='font-bold p-2 text-xl text-[#00df9a] font-Montserrat '>"Today a reader, tomorrow a leader." </p>
+      <p className='font-bold p-2 text-xl text-[#00df9a] font-Montserrat '>"Today a reader, tomorrow a leader.." </p>
       <br />
       <h1 className='md:text-7xl sm:text-6xl text-4xl bg-clip-text font-extrabold text-transparent bg-gradient-to-r from-purple-400 to-pink-600 '>ONLINE BOOK STORE</h1>
       <br />
