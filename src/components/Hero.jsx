@@ -8,6 +8,7 @@ const Hero = () => {
       if(evt.key==="Enter")
       {
           axios.get('https://www.googleapis.com/books/v1/volumes?q='+search+`&key=AIzaSyBXd0a7_PGcdXALqcrarw2faAyWnNXsEPQ`+'&maxResults=40')
+
           .then(res=>setData(res.data.items))
           .catch(err=>console.log(err))
       }
