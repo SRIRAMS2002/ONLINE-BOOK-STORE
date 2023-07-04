@@ -32,7 +32,6 @@ const Footer = () => {
           <a  className='  text-slate-500  hover:text-slate-100' href="">Study Materials</a>
           <a  className='  text-slate-500  hover:text-slate-100' href="">Biography</a>
           <a  className='  text-slate-500  hover:text-slate-100' href="">Documentary</a>
-          <a  className='  text-slate-500  hover:text-slate-100'  href="">Stories</a>
         </div>
 
         <div className='grid mb-10 '>
@@ -44,13 +43,6 @@ const Footer = () => {
         </div>
         
       </section>
-      <div className='text-white text-center bg-gradient-to-b from-gray-900 to-black '>
-        <br />
-
-          <h1>Developed by <span className='text-[#FF6700] font-Berserker font-bold '><a href="">SRIRAM S</a></span></h1>
-
-
-        </div>
     </div>
   )
 }
